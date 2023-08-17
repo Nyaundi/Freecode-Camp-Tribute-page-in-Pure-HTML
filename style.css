@@ -1,5 +1,27 @@
-*{
-
-    background-color: bisque;
-    text-align: justify;
-}
+:root {
+    font-size: 16px;
+    box-sizing: border-box;
+  
+    --bg-color: #f9f4ef;
+    --headline-color: #020826;
+    --text-color: #716040;
+    --time-color: #8c7851;
+    --secondary-color: #eaddcf;
+    --media-caption-color: #8c7851;
+    --tertiary-color: #f25042;
+    --border-color: #020826;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: var(--secondary-color);
+  }
+  
